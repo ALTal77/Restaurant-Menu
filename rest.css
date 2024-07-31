@@ -1,0 +1,178 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link{
+    color: white;
+    font-size: 18px;   
+     
+}
+.nav-link:hover{
+    color: #df6908;
+}
+.btn-order{
+    color: white;
+    background: #df6908;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    text-decoration: none;
+    font-weight:bolder;
+    letter-spacing:1px;
+    border-radius: 10px;
+}
+.btn-order:hover{
+    color: white;
+    background: #693103;
+}
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('pexels-cats-coming-699544.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.644)),url('pexels-engin-akyurt-1437267.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.slide-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('pexels-pixabay-361184.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.carousel-control-next, .carousel-control-prev{
+    background: rgba(0, 0, 0, 0.671);
+    margin: auto;
+    width: 30px;
+    height: 70px;
+}
+#slider-b-a h6::after,#slider-b-a h6::before{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background: white;
+    display: inline-block;
+    margin: 10px;
+    vertical-align:sub;
+}
+.divider{
+    height: 3px;
+    width: 80px;
+    background:#df6908;
+    display: block;
+}   
+        /*   MENU   */
+
+.nav-pills .nav-item .nav-link {
+    background:#df6908;
+    margin: auto 10px;
+    border-radius: 100px;
+}
+.nav-pills .nav-item .nav-link:hover{
+    color: white;
+    background-color: #693103;
+    box-shadow: 0 0 50px white;
+
+}
+.nav-pills .nav-link.active{
+    color: white;
+    background:#693103;
+    box-shadow: 0 0 50px white;
+
+}
+.star{
+    color: gold;
+}
+.shadow-item{
+    box-shadow: 0 0px 10px white;
+    transition: 0.3s;
+}
+
+.shadow-item:hover{
+    box-shadow: 0 10px 30px white;
+    transform: scale(1.1);
+}
+        /*featuers*/
+.icon-edit{
+    font-size: 60px;
+    background-color: #df6908;
+    transform: translateX(70%);
+    padding: 10px 20px;
+}
+        /*CHEF*/
+.chef-edit{
+    max-width: 100px;
+    margin: auto;
+    box-shadow: -20px -20px 0 chocolate;
+    border-radius: 50%;
+}
+        /*REVIEW*/
+.reservition-img{
+    background-image:url('pexels-edward-eyer-2923034.jpg'),linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.466)) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-fluidd{
+    max-width: 100px;
+}
+.carousel-indicators{
+    margin-bottom:-30px ;
+}
+.form-center{
+    display: flex;
+    justify-content: center;
+
+}
+#reservition .form-control{
+    border-radius: 0px;
+}
+#reservition .form-control:focus{
+    box-shadow: none;
+    border-color: #df6908;
+}
+#reservition input.form-control
+{
+    height: 50px !important;
+}
+.insta-post{
+    position: relative;
+}
+.insta-post .btn-insta{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    background: white;
+    color: #df6908;
+    border-radius: 100px;
+    transition: 0.3s;
+    opacity: 0;
+}
+.insta-post .btn-insta:hover{
+    font-size: 70px;
+    width:100px;
+    height:100px;
+    color: black;
+    background-color: #df6908;
+    opacity: 1;
+}
+.img-last{
+    max-width: 200px;
+}
+footer{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.678),rgba(0, 0, 0, 0.651)),url('pexels-cats-coming-699544.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.soical-links{
+    font-size: 20px;
+    cursor: pointer;
+}
