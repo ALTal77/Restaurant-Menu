@@ -1,6 +1,8 @@
-"use strict";
-for(let i=1;i<=5;i++){
-    if(i%2==0)
-        continue;
-    console.log(i);
-}
+let navLinks = document.querySelectorAll('.nav-link');
+let navbarCollapse = document.querySelector('.navbar-collapse');
+
+navLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        navbarCollapse.classList.remove('show');
+});
+});
