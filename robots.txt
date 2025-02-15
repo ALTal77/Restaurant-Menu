@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://altal77.github.io/Restaurant-Menu/sitemap.xml
