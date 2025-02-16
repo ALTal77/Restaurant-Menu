@@ -28,20 +28,20 @@
     background: #ff7700;
 }
 .slide-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('/Images/pexels-cats-coming-699544.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('Images/pexels-cats-coming-699544.webp');
     background-size: cover;
     background-position: center;
 
 }
 .slide-2{
-    background: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.644)),url('/Images/pexels-engin-akyurt-1437267.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.644)),url('Images/pexels-engin-akyurt-1437267.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
 }
 .slide-3{
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('/Images/pexels-pixabay-361184.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('Images/pexels-pixabay-361184.webp');
     background-size: cover;
     background-position: center;
 
